@@ -39,7 +39,7 @@ void intersection(int out[], int a1[], int n1, int a2[], int n2){
         }
     }
     for(int i = 0; i < count ; i++){
-        printf("%d,", out[i]);
+        printf("%d ", out[i]);
     }
 }
 int main(){
